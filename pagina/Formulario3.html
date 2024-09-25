@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cssf3.css">
+
+    <title>Formulario</title>
+</head>
+<body>
+
+
+    
+    <div id="contenedor">
+
+        <section id="centro">
+
+        <form method="get" >
+
+            <p>
+
+               <br><br> <img id="usuario"   src="img/usuario.png"><br> <br>
+
+            </p>
+
+            <p>
+            <labela for="nombre">Nombre Completo</labela> <br>
+            <input type="text" id="nombre" name="nombre" autofocus required placeholder="Ingrese nombre">
+            <labela for="apellidos"></labela>
+            <input type="text" id="apellidos" name="apellidos" required placeholder="Ingrese apellidos">
+            </p>
+
+            <p>
+
+            
+                <br> <br> <label for="municipio"></label>
+                    <select id="municipio" name="municipio" required>
+                        <option value="Nezahualcoyotl">Nezahualcoyotl</option>
+                        <option value="Chalco">Chalco</option>
+                        <option value="Chimalhuacan">Chimalhuacan</option>
+                        <option value="Chicoloapan">Chicoloapan</option>
+                        <option value="Los reyes">Los reyes</option>
+                        <option value="Iztapalapa">Iztapalapa</option>
+                        </select>
+            
+
+            
+                <label for="estado"></label>
+                <select id="estado" name="estado" required>
+                    <option value="Ciudad de mexico">Ciudad de mexico</option>
+                    <option value="Estado de mexico">Estado de Mexico</option>
+                    <option value="Jalisco">Jalisco</option>
+                    <option value="Puebla">Puebla</option>
+                    <option value="Jalisco">Jalisco</option>   
+                    <option value="Baja California">Baja California</option>               
+                    </select>
+                
+
+            <labela for="Codigo"></labela>
+            <input type="text" id="Codigo" name="Codigo" autofocus required placeholder="codigo Postal"> <br> <br>
+
+                </p>
+
+                <p>
+
+                    <labela for="numero"></labela><br>
+                    <input type="text" id="numero" name="numero" autofocus required placeholder="Numero telefonico" >
+                    <label for="date"></label>
+                    <input type="date" id="date" name="date" required><br><br>
+
+                </p>
+                <p>
+                <label for="imagen">Ingrese una Imagen</label> <br><br>
+                <input type="file" id="imagen" name="imagen" required> <br> <br>
+                </p>
+                <p>
+
+                    <label for="do"></label>
+                    <input type="checkbox" id="termino" name="termino" value="TERMINOS Y CONDICIONES"> Acepto Terminos y Condiciones <br><br>
+
+                </p>
+                
+                <p>
+                <label for="comentarios">Comentarios</label> <br><br>
+                <textarea col="60" rows="8" requerid id="msg" name="msg">Comentarios adicionales </textarea><br><br>
+            </p>
+
+                     <p>
+                <input type="submit" id="remitir" value="Aceptar">
+            </p>
+
+        </section>
+    </div>
+
+</body>
+</html>

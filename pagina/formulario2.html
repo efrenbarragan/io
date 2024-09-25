@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="contenedor">
+        <form action="post"></form>
+<p>
+<label for="comentarios">comentarios</label><br>
+<textarea name="60" rows="8" required id="msg"> Terminos y condiciones</textarea>
+</p>
+<p>
+    <label for="lenguaje">Lenguaje(s) Favoritos</label><br>
+    <select name="lenguaje" id="lenguaje" required multiple="true">
+    <option value="">Seleccione...</option>
+    <option value="php">php</option>
+    <option value="python">pyton</option>
+    <option value="java script">java script</option>
+    <option value="java">java</option>
+    <option value="c++">c++</option>
+</select>
+</p>
+<p>
+    <input type="submit" name="remitir" id="remitir" value="Remitir Informacion">
+</p>
+<p>
+    <label for="imagen">seleccione imagen</label><br>
+    <input type="file" id="imagen" name="imagen" required>
+</p>
+<p>
+    <label for="so">Sistema Operativo</label><br>
+    <input type="checkbox" id="so1" name="so1" value="windows">windows<br>
+    <input type="checkbox" id="so2" name="so2" value="macos">macos<br>
+    <input type="checkbox" id="so3" name="so3" value="linux">linux<br>
+</p>
+<p>
+    <label for="so">Sistema Operativo</label><br>
+    <input type="radio" id="so" name="so" value="windows">windows<br>
+    <input type="radio" id="so" name="so" value="macos">macos<br>
+    <input type="radio" id="so" name="so" value="linux">linux<br>
+</p>
+<p>
+    <button id="lista">Lista Datos</button>&nbsp;&nbsp;
+    <button id="guardar">Guardar Datos</button>&nbsp;&nbsp;
+    <button id="eliminar">Eliminar Datos</button>&nbsp;&nbsp;
+    <button id="editar">Editar Datos</button>&nbsp;&nbsp;
+    <button id="remitir">Remitir Datos</button>
+</p>
+<p>
+    <input type="submit" id="remitir" value="remitir Informacion">
+</p>
+<!--Nuevos elementos de formlario-->
+<p>
+<label for="data">fecha</label><br>
+<input type="date" id="fecha" name="fecha" required>
+</p>
+<p>
+    <label for="hora">Hora de registro</label><br>
+    <input type="time" id="hora" name="hora" required>
+</p>
+<p>
+    <label for="edad">Seleccione edad</label><br>
+    <input type="number" id="edad" name="edad" required min="0" max="100" step="5">
+</p>
+<p>
+    <label for="email">Correo</label><br>
+<input type="email" id="correo" name="correo" required>
+</p>
+    </div>
+</body>
+</html>
