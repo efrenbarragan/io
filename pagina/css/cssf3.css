@@ -7,7 +7,7 @@ body{
     background-color: rgb(0, 0, 0);
     background-image: linear-gradient(black);
     color: rgb(209, 203, 203);
-
+}
 .transparente{
 
     background-color: aliceblue;
@@ -17,7 +17,7 @@ body{
     width: 200px;
 
 }
-}
+
 
 #contenedor{
     width: 60%;
