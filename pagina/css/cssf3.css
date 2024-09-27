@@ -34,28 +34,27 @@ img {
   }
   
  #nombre{
-     background: inherit;
+     background: transparent;
      color: #ffffff;
  }
  
   #apellidos{
-     background: inherit;
+     background: transparent;
      color: #ffffff;
  }
  
   #municipio{
-     background: inherit;
-     color: #ffffff;
-     
+     background: transparent;
+     color: white;
  }
  
   #estado{
-     background: inherit;
+     background: transparent;
      color: #ffffff;
  }
  
   #Codigo{
-     background: inherit;
+     background: transparent;
      color: #ffffff;
  }
  
@@ -66,21 +65,25 @@ img {
  }
  
   #date{
-     background: inherit;
+     background: transparent;
      color: #ffffff;
  }
  
   #termino{
-     background: inherit;
+     background: transparent;
      color: #ffffff;
  }
  
   #msg{
-     background: inherit;
+     background: transparent;
      color: #ffffff;
  }
  
   #imagen{
-     background: inherit;
+     background: transparent;
      color: #ffffff;
+ }
+ #ACEPTAR{
+background-color: transparent;
+color: white;
  }
